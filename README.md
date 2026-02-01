@@ -8,18 +8,28 @@ A modern AI chat application built with React, TypeScript, and Tailwind CSS, pow
 - 💬 Streaming responses for better UX
 - 🎨 Modern, responsive UI with dark/light theme
 - 📱 Mobile-friendly design
-- 🔒 Pre-configured with API key
+- � Secure environment-based API key configuration
 - 📋 Code syntax highlighting and copy functionality
 
 ## Quick Start
 
-### 1. Install Dependencies
+### 1. Set Up Environment Variables
+
+Copy `.env.example` to `.env.local` and add your Groq API key:
+
+```bash
+cp .env.example .env.local
+```
+
+Then edit `.env.local` and replace `your_groq_api_key_here` with your actual API key from [Groq Console](https://console.groq.com/keys).
+
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Start Development Server
+### 3. Start Development Server
 
 ```bash
 npm run dev
@@ -27,7 +37,7 @@ npm run dev
 
 The application will be available at `http://localhost:5173`
 
-### 3. Start Chatting!
+### 4. Start Chatting!
 
 - Open the app in your browser
 - Type your message in the input field
