@@ -5,8 +5,11 @@
   "description": "Mr S Agent - A modern AI chat application powered by Groq",
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite"
+  "build": "npx vite build",
+  "dev": "vite",
+  "preview": "vite preview"
+}
+
   },
   "dependencies": {
     "@radix-ui/react-dialog": "1.1.6",
